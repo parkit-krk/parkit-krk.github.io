@@ -1,0 +1,27 @@
+section_1 {
+  display: flex;
+}
+
+#main-photo img {
+  max-width: 350px;
+}
+
+.low-opc {
+  margin: auto;
+  opacity: 0.1;
+  width: 80%;
+}
+
+.section-title-text {
+  padding-top:10px;
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 200;
+  font-size: 26px;
+  letter-spacing: 1.4px;
+}
+
+.car-img {
+  max-width: 200px;
+  margin-bottom: 7rem;
+}

@@ -1,0 +1,30 @@
+h3.desc{
+  color:white;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+}
+.infobox{
+  margin-top:10vh;
+  .col-md-4{
+    margin-bottom:20px;
+  }
+  .grey-card{
+    background-color: #a89d8c;
+    border-radius: 0;
+    min-height: 283px;
+
+    h4{
+      padding-top:20px;
+      font-size: 30px;
+      line-height: 41px;
+      letter-spacing: 0.5px;
+      color: #262120;
+    }
+    p{
+      text-align: justify;
+      padding:15px;
+    }
+  }
+}

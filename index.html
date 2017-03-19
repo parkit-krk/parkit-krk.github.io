@@ -1,1 +1,132 @@
-<h1>hello world</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>park.it - bardziej ludzkie parkowanie</title>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules\fullpage.js\dist\jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="styles/sass/main.css" />
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section bg-dark section_1">
+        <div id="main-photo" class="text-center">
+          <img src="img/mainLogo.svg" class="img-fluid">
+          <p class="section-title-text mt-4">Wolne miejsce parkingowe bliżej niż myślisz</p>
+        </div>
+        <div class="absolute-container">
+          <img src="img/car.svg" class="fixed-left low-opc img-fluid car-img">
+        </div>
+        <img src="img/map.svg" class="fixed-bottom low-opc img-fluid text-center">
+      </div>
+      <div class="section bg-darker">
+        <div class="container">
+          <h3 class="text-center desc">Dzięki park.it znajdziesz w Krakowie najbliższe wolne<br />miejsce parkingowe w okolicy miejsca do którego chcesz dotrzeć.</h3>
+          <div class="row infobox">
+            <div class="col-md-4">
+              <div class="card grey-card">
+                <h4 class="text-center">Nagrody</h4>
+                <p>
+                  Korzystając z aplikacji park.it opłaty parkingowe staną sie niższe, a imprezy kulturalne bardziej dostępne. A jeżeli nie korzystasz na codzień z auta, to pomagając aktualizować dostępność parkingów możesz taniej korzystać z transportu miejskiego.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card grey-card">
+                <h4 class="text-center">Oszczędności</h4>
+                <p>
+                  Nie trać czasu, paliwa i nerwów na krążenie między parkingami w poszukiwaniu wolnego miejsca. Z naszą aplikacją trafisz do celu szybciej, sprawniej i taniej.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card grey-card">
+                <h4 class="text-center">Ekologia</h4>
+                <p>
+                  Auta dojeżdżając szybciej na miejsce emitują mniej spalin co na pewno wpłynie na jakość powietrza w Krakowie. Współpraca z systemem Wavelo oraz z transportem zbiorowym pokaże alternatywny sposób dojazdu do celu.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section bg-dark">
+       <h5 class="text-center">Dwie drużyny - jeden cel</h5>
+        <div class="slide">
+
+
+          <div class="section-3-container container">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/KH_phone2.png" class="img-phone"/>
+              </div>
+              <div class="col-8">
+                 <h3>Moduł pieszego</h3>
+                 <p>Zaznaczaj wolne miejsca na parkingach i zdobywaj nagrody.
+               Każdego dnia masz szansę być najwyżej w rankingu. Korzystaj z aplikacji regularnie a masz szansę na wygranie biletów na najważniejsze wydarzenia kulturalne w Krakowie.</p>
+               </div>
+              </div>
+            </div>
+
+<!--
+            <div class="row">
+              <img src="img/phone.png" class="col-md-4"/>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                 <h3>Moduł pieszego</h3>
+                 <p>Zaznaczaj wolne miejsca na parkingach i zdobywaj nagrody.
+               Każdego dnia masz szansę być najwyżej w rankingu</p>
+               </div>
+            </div>
+-->
+          </div>
+
+        <div class="slide">
+          <div class="section-3-container container">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/KH_phone1.png" class="img-phone"/>
+              </div>
+              <div class="col-8">
+                 <h3>Moduł kierowcy</h3>
+                 <p>Znajduj wolne miejsca parkingowe nie tracąc czasu. Aplikacja pozwoli Ci w optymalny sposób dostać się w miejsce docelowe.</p>
+               </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="section bg-darker section-4-container">
+
+       <div class="section-3-container container">
+            <div class="row">
+              <div class="col-8">
+                <h5>Analizowanie danych</h5>
+                <p>Uzyskiwane od uzytkowników dane umożliwią nie tylko stworzenie modelu przewidującego ruch drogowy w mieście, ale także pomogą w dostosowaniu miasta do jego mieszkańców. Tworzenie statystyk parkingów, map ciekawych miejsc czy uzyskiwanie informacji jak rozwijać komunikację miejską.</p>
+              </div>
+              <div class="col-4">
+                 <img src="img/db.svg" class="img-fluid img-db text-center">
+               </div>
+              </div>
+       </div>
+      </div>
+      <div class="section intro footer fp-auto-height section-footer">
+        <div class="containter">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="http://krakhack.pl"><img class="mt-3" src="img/krakhack.png" /></a>
+            </div>
+            <div class="col-md-6">
+              <p class="text-center mt-3">Projekt powstał podczas KrakHack - pierwszego hackatonu Krakowa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules\fullpage.js\vendors\scrolloverflow.min.js"></script>
+    <script src="node_modules\fullpage.js\dist\jquery.fullpage.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="dev.js"></script>
+  </body>
+</html>

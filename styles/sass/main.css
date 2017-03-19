@@ -1,0 +1,102 @@
+.bg-dark {
+  background: #362f2d; }
+
+.bg-darker {
+  background: #262120; }
+
+section_1 {
+  display: flex; }
+
+#main-photo img {
+  max-width: 350px; }
+
+.low-opc {
+  margin: auto;
+  opacity: 0.1;
+  width: 80%; }
+
+.section-title-text {
+  padding-top: 10px;
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 200;
+  font-size: 26px;
+  letter-spacing: 1.4px; }
+
+.car-img {
+  max-width: 200px;
+  margin-bottom: 7rem; }
+
+h3.desc {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.5em;
+  letter-spacing: 1.5px; }
+
+.infobox {
+  margin-top: 10vh; }
+  .infobox .col-md-4 {
+    margin-bottom: 20px; }
+  .infobox .grey-card {
+    background-color: #a89d8c;
+    border-radius: 0;
+    min-height: 283px; }
+    .infobox .grey-card h4 {
+      padding-top: 20px;
+      font-size: 30px;
+      line-height: 41px;
+      letter-spacing: 0.5px;
+      color: #262120; }
+    .infobox .grey-card p {
+      text-align: justify;
+      padding: 15px; }
+
+h5 {
+  padding-top: 28px;
+  font-size: 22px;
+  color: #666; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: white; }
+
+.fp-slidesNav {
+  margin-top: 50px; }
+
+.img-phone {
+  width: 100%; }
+
+.section-3-container h3 {
+  text-align: right;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 4rem; }
+
+.section-3-container p {
+  color: white;
+  opacity: 0.8; }
+
+h5 {
+  padding-top: 28px;
+  font-size: 22px;
+  color: #666; }
+
+.section-4-container h5 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 4rem; }
+
+.img-db {
+  width: 300px;
+  opacity: 0.5;
+  margin: auto; }
+
+.section-footer {
+  background: #362f2d; }
+  .section-footer p {
+    color: white; }
+  .section-footer img {
+    margin-left: 20px;
+    height: 30px; }
+
+/*# sourceMappingURL=main.css.map */
