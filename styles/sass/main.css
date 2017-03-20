@@ -76,6 +76,12 @@ h5 {
   color: white;
   opacity: 0.8; }
 
+.env-img {
+  font-size: 300px !important;
+  opacity: 0.1;
+  margin: auto;
+  color: white; }
+
 h5 {
   padding-top: 28px;
   font-size: 22px;
@@ -92,9 +98,10 @@ h5 {
   margin: auto; }
 
 .section-footer {
-  background: #362f2d; }
+  background: #262120; }
   .section-footer p {
-    color: white; }
+    color: white;
+    text-align: right; }
   .section-footer img {
     margin-left: 20px;
     height: 30px; }
