@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-      scrollOverflow:true,
+      //scrollOverflow:true,
       responsiveWidth:768,
       slidesNavigation: true,
       controlArrows: false,
