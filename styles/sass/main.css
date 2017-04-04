@@ -86,7 +86,8 @@ h5 {
 
 .section-3-container p {
   color: white;
-  opacity: 0.8; }
+  opacity: 0.8;
+  margin-left: 20px; }
 
 .env-img {
   font-size: 300px !important;
@@ -117,5 +118,12 @@ h5 {
   .section-footer img {
     margin-left: 20px;
     height: 30px; }
+
+html {
+  overflow-x: hidden !important; }
+
+body {
+  overflow-x: hidden;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
